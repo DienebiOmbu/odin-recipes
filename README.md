@@ -1,122 +1,122 @@
-# Portfolio Website
+# Recipe Website
 
-## Introduction
-This is a personal portfolio website showcasing my projects, skills, and experience. It is built using HTML, CSS, and JavaScript, and is designed to be responsive and visually appealing.
+Welcome to the Recipe Website! This README provides an overview of the project, including how to set it up, contribute, and use the features available on the site.
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Demo](#demo)
-3. [Features](#features)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Configuration](#configuration)
-7. [Project Structure](#project-structure)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Contact](#contact)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Demo
-You can view a live demo of the portfolio website [here](https://yourwebsite.com).
+## Introduction
+
+The Recipe Website is a platform where users can find, share, and save their favorite recipes. The website aims to provide a user-friendly interface for cooking enthusiasts to explore new dishes and share their culinary creations with the community.
 
 ## Features
-- Responsive design
-- Showcase of projects with images and descriptions
-- Contact form for reaching out
-- Smooth scrolling and animations
+
+- **Browse Recipes**: Explore a wide variety of recipes from different cuisines.
+- **Search Functionality**: Easily find recipes by ingredients, cuisine, or recipe name.
+- **User Accounts**: Sign up and log in to save favorite recipes and submit your own.
+- **Recipe Submission**: Users can submit their own recipes, including ingredients, instructions, and photos.
+- **Favorites**: Save favorite recipes for quick access later.
+- **Ratings and Reviews**: Rate and review recipes to help others find the best dishes.
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Authentication**: Passport.js
+- **Version Control**: Git, GitHub
 
 ## Installation
 
-### Prerequisites
-- Web browser (e.g., Chrome, Firefox)
-- Text editor (e.g., VSCode, Sublime Text)
-- [Node.js](https://nodejs.org/) (for running development server)
+To set up the project locally, follow these steps:
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd portfolio-website
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/dienebi-ombu/odin-recipes.git
+    cd odin-recipe
+    ```
+
+2. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Set Up Environment Variables**:
+    Create a `.env` file in the root directory and add the following variables:
+    ```plaintext
+    MONGODB_URI=your_mongodb_connection_string
+    SESSION_SECRET=your_session_secret
+    ```
+
+4. **Start the Server**:
+    ```bash
+    npm start
+    ```
+
+The website should now be running on `http://localhost:3000`.
 
 ## Usage
 
-### Running Locally
-1. Start the development server:
-   ```bash
-   npm start
-   ```
-2. Open your browser and go to `http://localhost:3000`.
-
-### Building for Production
-1. Build the project:
-   ```bash
-   npm run build
-   ```
-2. The production-ready files are in the `dist` directory.
-
-## Configuration
-- **Site Metadata**: You can update the site metadata (title, description, etc.) in the `index.html` file.
-- **Projects**: Add your projects in the `projects.json` file. Each project should have a title, description, image URL, and a link.
-- **Contact Form**: Configure the contact form by setting the form action URL in the `contact.js` file.
-
-## Project Structure
-```
-portfolio-website/
-├── dist/                   # Production build files
-├── src/                    # Source files
-│   ├── assets/             # Images, fonts, etc.
-│   ├── css/                # CSS files
-│   ├── js/                 # JavaScript files
-│   ├── index.html          # Main HTML file
-│   └── projects.json       # JSON file for projects
-├── .gitignore              # Git ignore file
-├── package.json            # NPM package file
-└── README.md               # Documentation file
-```
+- **Browse Recipes**: Visit the homepage to see a list of available recipes.
+- **Search**: Use the search bar to find specific recipes.
+- **User Accounts**: Sign up for a new account or log in with existing credentials.
+- **Submit Recipes**: After logging in, use the "Submit Recipe" feature to add your own recipes.
+- **Favorites**: Click the "Favorite" button on any recipe to save it to your favorites list.
+- **Rate and Review**: Provide feedback on recipes by leaving ratings and reviews.
 
 ## Contributing
 
-### How to Contribute
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/your-feature
-   ```
-5. Create a Pull Request.
+We welcome contributions to improve the Recipe Website! To contribute, follow these steps:
 
-### Code of Conduct
-Please read the [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+1. **Fork the Repository**:
+    Click the "Fork" button on the GitHub repository page.
 
-### Contributor Guidelines
-- Follow the existing code style.
-- Write clear, concise commit messages.
-- Test your changes before submitting a Pull Request.
+2. **Clone Your Fork**:
+    ```bash
+    git clone https://github.com/dienebi-ombu/odin-recipes.git
+    cd odin-recipes
+    ```
+
+3. **Create a Branch**:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+
+4. **Make Your Changes**:
+    Implement your feature or bug fix.
+
+5. **Commit Your Changes**:
+    ```bash
+    git add .
+    git commit -m "Add your commit message"
+    ```
+
+6. **Push to Your Fork**:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+7. **Submit a Pull Request**:
+    Open a pull request on the original repository and provide a detailed description of your changes.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
-- Maintainer: [Your Name](mailto:your.email@example.com)
-- GitHub: [https://github.com/yourusername](https://github.com/yourusername)
-- Website: [https://yourwebsite.com](https://yourwebsite.com)
-```
 
-### Additional Tips:
-- Customize the content based on your project's specifics.
-- Ensure the demo link, contact information, and GitHub repository links are updated to reflect your actual details.
-- Add more sections if necessary, such as FAQs or acknowledgements, depending on the complexity and needs of your project.
+For any questions or suggestions, feel free to open an issue on GitHub or contact the project maintainers:
+
+- **Dienebi Ombu**: dienebi.ombu@gmail.com
+- **GitHub**: [dienebi-ombu](https://github.com/dienebi-ombu)
+
+---
+
+Thank you for visiting the Recipe Website! We hope you enjoy exploring and sharing delicious recipes. Happy cooking!
