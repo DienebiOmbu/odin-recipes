@@ -1,6 +1,6 @@
-# Recipe Website
+# Odin Recipes
 
-Welcome to the Recipe Website! This README provides an overview of the project, including how to set it up, contribute, and use the features available on the site.
+Welcome to Odin Recipes! This README provides an overview of the project, including how to set it up, contribute, and use the features available on the site.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +14,7 @@ Welcome to the Recipe Website! This README provides an overview of the project, 
 
 ## Introduction
 
-The Recipe Website is a platform where users can find, share, and save their favorite recipes. The website aims to provide a user-friendly interface for cooking enthusiasts to explore new dishes and share their culinary creations with the community.
+The Odin Recipes is a platform where users can find, share, and save their favorite recipes. The website aims to provide a user-friendly interface for cooking enthusiasts to explore new dishes and share their culinary creations with the community.
 
 ## Features
 
